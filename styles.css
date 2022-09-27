@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar {
+    height: 4rem;
+    background-color: #DAA520;
+}
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+.navbar-brand {
+    color: black;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.nav-link {
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+    height: 35rem;
+    margin-bottom: 1rem;
+}
+
+.heroImg {
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    filter: opacity(30%);
+}
+
+
+.mainTitle {
+    color: white;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding: 7rem 0 0 3rem;
+}
+
+.mainSpan {
+    background: linear-gradient(90deg, rgba(218,165,32,1) 0%, rgb(169, 133, 43) 48%, rgb(115, 91, 31) 72%, rgb(218,165,32,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainPar {
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 1rem 0 0 3rem;
+}
+
+.mainDivBtn {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 0 0 5rem;
+}
+
+.btnLink {
+    color: white;
+    font-size: large;
+    
+}
+
+.mainBtn {
+    width: 220px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 3px solid rgb(169, 133, 43);
+    font-weight: 700;
+}
+
+.becTitle {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.becSect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5rem;
+    gap: 2rem;
+}
+
+.becDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 22px;
+    border: 3px solid rgba(218,165,32,1);
+    background-color: white;
+    gap: 2rem;
+    padding: .8rem .5rem;
+    color: black;
+}
+
+.becDivTitle {
+    color: rgba(218,165,32,1);
+    font-weight: 700;
+}
+
+.becDivPar {
+    font-weight: 600;
+}
